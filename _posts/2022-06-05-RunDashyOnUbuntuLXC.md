@@ -1,5 +1,5 @@
 ---
-title: Install Dashy on Ubuntu 20.10 LXC in Proxmox
+title: Install Dashy on Ubuntu LXC in Proxmox
 date: 2022-06-05
 categories: [Home Lab, Proxmox, Dashy]
 tags: [home lab,dashy,proxmox,dashy,heimdall,helper script]
@@ -7,9 +7,21 @@ tags: [home lab,dashy,proxmox,dashy,heimdall,helper script]
 ## Introduction
 I was doing some research on trying to find a good personal dashboard to use in a container on Proxmox. I ended up using Dashy over Heimdall. Dashy, however is mostly supported for running on Docker. So I set out to create a one-liner helper script that will install it start to finish.
 
-## Container Requirements
-- 1024mb of Memory 
-- 2 CPU Cores
+TLDR - This is a way standalone way to install Dashy on a Proxmox Ubuntu LXC container. 
+
+## Requirements:
+- Proxmox LXC Container (Script Does NOT support Proxmox VM yet)
+- 4096mb of memory allocated (deflate to 1024mb after script)
+- 2 virtual cores (deflate to 1 after script) 
+
+## Tested LXC Containers:
+
+|                   LXC Template              |    Support   |
+| ------------------------------------------- | ------------ |
+| ubuntu-18.04-standard_18.04.1-1_amd64       | Working      |
+| ubuntu-22.04-standard_22.04-1_amd64 (Focal) | Working      |
+| ubuntu-22.04-standard_22.04-1_amd64 (Jammy) | Working      |
+| ubuntu-22.10-standard_22.10-1_amd64         | Broken       |
 
 ## How to Use
 **Step 1)** 
@@ -31,15 +43,15 @@ set -o errexit
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #Let's start by making sure we are up to date
-sudo apt-get update && upgrade
+sudo apt update && sudo apt upgrade
 #Downloading and installing dependencies for getting packages dependent software - Git, Curl, and net-tools for printing local IP at the end.
 sudo apt-get install git curl net-tools
 #Now that we have Curl, lets add the corect version of NodeJS
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo bash -
+wget -qO- https://deb.nodesource.com/setup_16.x | bash -
 #We need to refresh the apt repositories now
 sudo apt-get update
 sudo apt-get install -y nodejs
-sudo apt-get update && upgrade
+sudo apt-get update && sudo apt-get upgrade -y
 #This may look redundant but I promise it needs to be done this way!
 #"yarn" is used by a program called cmdtest. If this process is not done like this it will 
 #always fail due to cmdtest being installed. If you know a better way please let me know! 
@@ -83,10 +95,12 @@ cat <<EOF > /etc/systemd/system/dashy.service
 [Unit]
 Description=dashy
 Before=motd-news.service
+
 [Service]
 Type=oneshot
 ExecStart=/root/dashy/start.sh
 StandardOutput=journal+console
+
 [Install]
 WantedBy=multi-user.target
 EOF
@@ -111,7 +125,7 @@ sudo bash install-dashy.sh
 
 **Step 5)** Now it's time to reboot your container
 ```console
-sudo shutdown -r 0
+reboot
 ```
 ## Conclusion
 
@@ -120,7 +134,10 @@ You can now go to your container's IP address in a browser and view your Dashy!
 xxx.xxx.xxx.xxx:4000 is default.
 
 
-The most up-to-date version of the script can be found over on my [GitHub](https://github.com/Glitch3dPenguin/DashyOneLinerForUbuntu/blob/main/install-dashy.sh). You can also join the conversation on [Reddit](https://www.reddit.com/r/selfhosted/comments/sz9nz9/run_dashy_on_ubuntu_2010_lxc_in_proxmox/)!
+The most up-to-date version of the script can be found over on my [GitHub](https://github.com/Glitch3dPenguin/DashyOneLinerForUbuntu). You can also join the conversation on [Reddit](https://www.reddit.com/r/selfhosted/comments/sz9nz9/run_dashy_on_ubuntu_2010_lxc_in_proxmox/)!
+
+> Post updated on `5/24/2023`.
+{: .prompt-info }
 
 Thanks for reading!
 
