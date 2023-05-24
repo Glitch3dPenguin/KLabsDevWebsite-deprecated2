@@ -17,7 +17,7 @@ Currently the only supported way to install Nginx Proxy Manager is to run it ins
 > DO NOT USE Alpine 3.17 - Installer Will Fail Later
 {: .prompt-warning }
 
-2) Create a new LXC container using the downloaded Alpine 3.16 container. 
+2) Create a new LXC container using the downloaded Alpine 3.16 template. 
 
 3) Log into the newly created container. Then update and upgrade the container. 
 
