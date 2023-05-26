@@ -134,9 +134,9 @@ You can now go to your container's IP address in a browser and view your Dashy!
 xxx.xxx.xxx.xxx:4000 is default.
 
 
-The most up-to-date version of the script can be found over on my [GitHub](https://github.com/Glitch3dPenguin/DashyOneLinerForUbuntu). You can also join the conversation on [Reddit](https://www.reddit.com/r/selfhosted/comments/sz9nz9/run_dashy_on_ubuntu_2010_lxc_in_proxmox/)!
+The most up-to-date version of the script can be found over on my [GitHub](https://github.com/Glitch3dPenguin/DashyDashboardForLXC). You can also join the conversation on [Reddit](https://www.reddit.com/r/selfhosted/comments/sz9nz9/run_dashy_on_ubuntu_2010_lxc_in_proxmox/)!
 
-> Post updated on `5/24/2023`.
+> Post updated on `5/25/2023`.
 {: .prompt-info }
 
 Thanks for reading!
