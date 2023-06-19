@@ -38,14 +38,35 @@ wget --no-cache -qO - https://raw.githubusercontent.com/ej52/proxmox/main/lxc/ng
 
 ![Download Alpine Linux](/klabsdev/images/NginxProxyManager/NginxProxyManager2.png)
 
-7) Enter the provided IP address in a browser and use the default login: 
+Save this URL and port number for later as you will need it to access the web management panel. 
+
+7) Next, using your text editor of choice edit `/usr/local/openresty/nginx/conf/nginx.conf`
+
+```
+nano /usr/local/openresty/nginx/conf/nginx.conf 
+```
+
+You will need to comment out this line 
+`pid /run/nginx/nginx.pid;`
+to
+`# pid /run/nginx/nginx.pid;`
+
+Save and close the file. 
+
+8)Reboot the container 
+
+```
+reboot
+```
+
+9) Enter the provided IP address in a browser and use the default login: 
 
 ```
 E-Mail: admin@example.com
 Password: changeme
 ```
 
-8) Once logged in, you will be asked to change the default admin login. Use the previously provided default login as the last login option.
+10) Once logged in, you will be asked to change the default admin login. Use the previously provided default login as the last login option.
 
 Nginx Proxy Manager is now installed! 
 
@@ -55,6 +76,9 @@ Nginx Proxy Manager is now installed!
 - Broken support for Alpine Linux 3.17 documented on [**Issue #118**](https://github.com/ej52/proxmox-scripts/issues/118).
 - Script does not create the "npm" user by default and it is not documented outside of [**Issue #117**](https://github.com/ej52/proxmox-scripts/issues/117).
 
+
+> This post has been updated on 6/19/2023.
+{: .prompt-info }
 
 Thanks for reading!
 
