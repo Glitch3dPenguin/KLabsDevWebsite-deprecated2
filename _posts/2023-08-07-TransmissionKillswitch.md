@@ -4,7 +4,7 @@ date: 2023-08-07
 categories: [Home Lab,Torrent,Transmission]
 tags: [Home Lab,Torrent,script,Transmission]
 image:
-  path: /klabsdev/images/Killswitch.png
+  path: /klabsdev/thumbs/Killswitch.png
 ---
 
 ## Introduction: 
