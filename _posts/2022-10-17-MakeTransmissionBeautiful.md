@@ -3,6 +3,8 @@ title: Make Transmission WEB-UI Beautiful
 date: 2022-10-17
 categories: [Home Lab, Torrent, Transmission]
 tags: [transmission web interface,torrenting,torrent,seed box,transmission,transmission-daemon,web-ui]
+image:
+  path: /klabsdev/thumbs/TransmissionToTransmissionic.png
 ---
 
 ## Introduction
