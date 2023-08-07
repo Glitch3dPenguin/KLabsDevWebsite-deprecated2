@@ -3,6 +3,8 @@ title: Install Nginx Proxy Manager on Proxmox LXC & Alpine Linux
 date: 2023-05-15
 categories: [Proxmox,Home Lab,LXC]
 tags: [Nginx Proxy Manager,Home Lab,LXC,LXC Container,Alpine Linux]
+image:
+  path: /klabsdev/thumbs/NginxProxyManager.png
 ---
 
 ## Introduction: 

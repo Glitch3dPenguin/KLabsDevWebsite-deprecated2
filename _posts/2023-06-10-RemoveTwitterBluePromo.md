@@ -3,6 +3,8 @@ title: Remove Twitter Blue Promotion Buttons 2023
 date: 2023-06-09
 categories: [Twitter,Tampermonkey,Twitter Blue]
 tags: [Twitter,Userscript]
+image:
+  path: /klabsdev/thumbs/TwitterBlue.jpg
 ---
 
 ## Introduction: 
