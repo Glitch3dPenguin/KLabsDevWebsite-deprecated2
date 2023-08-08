@@ -16,10 +16,10 @@ This is a list I have collected of tools to test if your adblock is working and 
 - General AdBlock Testing
   + [AdBlock Tester](https://adblock-tester.com/)
   + [Can You Block It](https://canyoublockit.com/)
-  + [Ads Malev](https://ads.malev.ru/)
-  + [d3ward's AdBlock Tool](https://d3ward.github.io/toolz/adblock.html)
-  + [FuzzThePiGuy's AdTest](https://fuzzthepiguy.tech/adtest/)
-  + [Raymond Hill Basic AdBlock Test](http://www.raymondhill.net/ublock/tests.html)
+  + [Ads Malev](https://ads.malev.ru/) by [Malev](https://malev.ru/)
+  + [AdBlock Tool](https://d3ward.github.io/toolz/adblock.html) by [d3ward](https://malev.ru/)
+  + [AdTest](https://fuzzthepiguy.tech/adtest/) by [Fuzz The Pi Guy](https://fuzzthepiguy.tech/)
+  + [Basic AdBlock Test](http://www.raymondhill.net/ublock/tests.html) by [Raymond Hill](https://github.com/gorhill)
 - These websites will prompt you if it detects AdBlocker
   + [Bild](https://www.bild.de/)
   + [The World](https://theworld.org/stories/2016-01-04/after-six-years-prison-iranian-blogger-sees-very-different-internet)
