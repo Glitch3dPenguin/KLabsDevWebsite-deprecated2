@@ -7,6 +7,9 @@ image:
   path: /klabsdev/thumbs/TwitterBlue.jpg
 ---
 
+> This post is currently obsolete. Up-to-date code can be foud on the original github gist link posted below. 
+{: .prompt-danger }
+
 ## Introduction: 
 This is a super simple and easy way to remove the Twitter Blue promo buttons. This is designed to work with a Desktop Browser addon like Tamermonkey.
 
