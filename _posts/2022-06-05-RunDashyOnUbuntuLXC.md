@@ -1,7 +1,7 @@
 ---
 title: Install Dashy on Ubuntu LXC in Proxmox
 date: 2022-06-05
-categories: [Home Lab, Proxmox, Dashy]
+categories: [Home Lab, Proxmox, Dashy, Tutorial]
 tags: [home lab,dashy,proxmox,dashy,heimdall,helper script]
 ---
 ## Introduction

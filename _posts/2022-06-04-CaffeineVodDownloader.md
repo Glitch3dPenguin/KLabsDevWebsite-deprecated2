@@ -2,7 +2,7 @@
 title: Caffeine.tv VOD Downloader
 date: 2022-06-04
 categories: [Caffeine.tv, Streaming]
-tags: [caffeine.tv,streaming,bash,]
+tags: [caffeine.tv,script,streaming,bash,]
 ---
 ## Introduction
 I am a full-time streamer and partner with Caffeine TV. I spend a lot of time live and recording every broadcast to make clips or YouTube videos would consume loads of space on my NAS. Since Caffeine.tv records all broadcasts and saves them for viewing later, why not just download and save the VODs when needed. For the time being Caffeine does not have any features allowing any easy VOD downloading for their broadcasters. 

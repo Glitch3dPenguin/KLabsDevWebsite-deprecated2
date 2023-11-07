@@ -1,8 +1,8 @@
 ---
 title: Complete List of AdBlock Testing Tools
 date: 2023-08-07
-categories: [Home Lab,AdBlock Testing,Tools]
-tags: [AdBlock Testing,AdBlock Tools,AdBlock Testing,PiHole]
+categories: [Home Lab, AdBlock Testing, Tools]
+tags: [adblock testing,adblock tools,adblock testing,pihole]
 image:
   path: /klabsdev/thumbs/AdBlockTesting.png
 ---

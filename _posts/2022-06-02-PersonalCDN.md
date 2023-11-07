@@ -1,7 +1,7 @@
 ---
 title: Build Your Own CDN with Backblaze and Cloudflare!
 date: 2022-06-03
-categories: [Web Server, Cloudflare, Backblaze]
+categories: [Cloudflare, Backblaze, Tutorial]
 tags: [cdn,backbblaze,cloudflare,homelab]
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: Themes for Apache Guacamole Terminal
 date: 2023-08-06
-categories: [Home Lab,Apache Guacamole,Themes]
-tags: [Apache,Guacamole,Terminal,Themes]
+categories: [Home Lab, Apache Guacamole, Themes]
+tags: [apache,guacamole,terminal,themes]
 image:
   path: /klabsdev/images/GuacamoleNordTheme.png
 ---

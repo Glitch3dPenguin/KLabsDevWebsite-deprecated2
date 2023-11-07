@@ -1,7 +1,7 @@
 ---
 title: Allow Read/Write Permissions to Wordpress
 date: 2022-07-04
-categories: [Home Lab, Apache 2, Web Server]
+categories: [Home Lab, Apache 2, Web Server, Tutorial]
 tags: [home lab,apache 2,wordpress,permissions]
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: Transmission Killswitch Script 
 date: 2023-08-07
-categories: [Home Lab,Torrent,Transmission]
-tags: [Home Lab,Torrent,script,Transmission]
+categories: [Home Lab, Torrent, Transmission]
+tags: [home lab,torrent,script,transmission]
 image:
   path: /klabsdev/thumbs/Killswitch.png
 ---

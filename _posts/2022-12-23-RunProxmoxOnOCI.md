@@ -1,8 +1,8 @@
 ---
 title: Run Proxmox on OCI - FOR FREE
 date: 2022-12-23
-categories: [OCI, Proxmox, Oracle Cloud Infastructure]
-tags: [Proxmox,OCI,Run Proxmox on OCI,Oracle Cloud Infastructure]
+categories: [OCI, Proxmox, Oracle Cloud Infastructure, Tutorial]
+tags: [proxmox,oci,run proxmox on oci,oracle cloud infastructure]
 image:
   path: /klabsdev/thumbs/ProxmoxAndOracle.png
 ---

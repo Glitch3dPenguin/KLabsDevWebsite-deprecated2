@@ -1,7 +1,7 @@
 ---
 title: Enable Remote SSH on Proxmox LXC
 date: 2022-06-03
-categories: [Proxmox, LXC]
+categories: [Proxmox, LXC, Tutorial]
 tags: [proxmox,lxc,ssh,homelab,virtualization]
 ---
 ## Introduction

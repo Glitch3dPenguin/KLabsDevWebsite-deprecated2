@@ -1,8 +1,8 @@
 ---
 title: Proxmox Dark Mode
 date: 2022-06-17
-categories: [Proxmox, Home Lab]
-tags: [home lab,Dark Mode,Proxmox,]
+categories: [Proxmox, Home Lab, Tutorial]
+tags: [home lab,dark mode,proxmox,]
 ---
 
 ![Desktop View](/klabsdev/images/ProxmoxExample.png){: width="972" height="589" }

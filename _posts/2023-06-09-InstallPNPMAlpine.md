@@ -1,8 +1,8 @@
 ---
 title: Install PNPM on Alpine Linux 3.17
 date: 2023-06-09
-categories: [Proxmox,LXC,Home Lab,Alpine Linux]
-tags: [PNPM,LXC,Alpine Linux,home lab]
+categories: [Proxmox, LXC,Home Lab, Alpine Linux]
+tags: [pnpm,lxc,alpine linux,home lab]
 image:
   path: /klabsdev/thumbs/AlpineLinuxLogo.png
 ---

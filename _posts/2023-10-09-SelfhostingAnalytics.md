@@ -2,7 +2,7 @@
 title: Self-Host The Ultimate Web Analytics Dashboard - Swetrix
 date: 2023-10-10
 categories: [Proxmox, Home Lab, Analytics]
-tags: [Swetrix, Analytics]
+tags: [swetrix, analytics]
 image:
   path: /klabsdev/images/SwetrixPost/CoreFeaturesDark.webp
 ---
